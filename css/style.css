@@ -1,6 +1,7 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 /* Title */
@@ -12,12 +13,27 @@ html, body {
 
 .container-fluid {
   padding: 3% 10% 8%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Nav bar */
 
 .navbar{
-  padding: 0 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  transition: all .5s ease;
+}
+
+nav:not(.transparent) {
+  color: #0c0c0c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
 }
 
 .navbar-brand {
