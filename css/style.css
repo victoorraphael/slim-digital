@@ -83,8 +83,8 @@ hr{
 }
 
 .service-img {
-  height: 350px;
-  width: 350px;
+  height: 15rem;
+  width: 15rem;
   margin: auto;
   border-radius: 50%;
 }
@@ -106,10 +106,14 @@ hr{
 
 .section-title {
   margin-bottom: 100px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 
 .service-title-inner {
   margin-top: 30px;
+  font-family: 'Montserrat';
 }
 
 
@@ -119,8 +123,16 @@ hr{
   text-align: center;
 }
 
-.pricing-item{
-  padding: 3%;
+.card-header, .card-title, .card-text {
+  font-family: 'Montserrat';
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 300;
 }
 
 /* Footer */
