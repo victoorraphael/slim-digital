@@ -2,9 +2,11 @@
 # SLIM DIGITAL - WEBSITE
 
 Website desenvolvido para a empresa de publicidade e marketing **SLIM DIGITAL** !
+
 *Website developed for the company **SLIM DIGITAL**!*
 
 Tecnologias utilizadas:
+
 *Technologies:*
 
 * HTML 5
