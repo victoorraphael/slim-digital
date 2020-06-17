@@ -33,16 +33,22 @@ body {
   transition: all .5s ease;
 }
 
+.navbar img {
+  display: inline;
+}
+
 
 nav:not(.transparent) {
   color: #0c0c0c;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
 }
 
-.navbar-brand {
+.text-brand {
+  display: inline;
   font-family: 'Ubuntu';
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .normal-text {
@@ -159,4 +165,13 @@ hr{
 
 #footer i {
   margin: 0 5px 20px;
+}
+
+/* Media querys */
+
+@media only screen and (max-width: 395) {
+  
+  .navbar h1{
+    display: none;
+  }
 }
